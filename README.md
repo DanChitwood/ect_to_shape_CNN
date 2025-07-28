@@ -1,5 +1,5 @@
 # ECT-to-shape CNN
-A CNN for predicting shapes from their corresponding radial ECTs
+A CNN for segmenting leaf shapes from their corresponding radial ECTs
 
 ## Preparing radial ECTs and aligned leaf shape masks  
 `0_radial_ect_and_masks.py`  
