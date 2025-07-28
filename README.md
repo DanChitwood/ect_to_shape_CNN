@@ -1,7 +1,8 @@
 # ECT-to-shape CNN
 A CNN for segmenting leaf shapes from their corresponding radial ECTs
 
-![alt](https://github.com/DanChitwood/ect_to_shape_CNN/blob/main/ect_to_shape_CNN/outputs/figures/leaf_segmentation_figure.png)
+![alt](https://github.com/DanChitwood/ect_to_shape_CNN/blob/main/ect_to_shape_CNN/outputs/figures/leaf_segmentation_figure.png)  
+**Prediciton of segmented leaf masks from corresponding radial ECTs using a CNN.** For 40 randomly selected leaves, their radial ECT with superimposed leaf outline (left) and the original and CNN predicted pixels of the leaf shape mask (right), with true positives (white), false positives (magenta), false negatives (dodgerblue), and background (gray) indicated by color.
 
 ## Data inputs  
 The folders `Leafsnap` and `Transect` containing `.npy` files of leaf coordinate data from the following link should be placed in the folder `data`: https://figshare.com/articles/dataset/Modified_leaf_shape_contour_data/25435936
