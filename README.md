@@ -1,6 +1,9 @@
 # ECT-to-shape CNN
 A CNN for segmenting leaf shapes from their corresponding radial ECTs
 
+## Data inputs  
+The folders `Leafsnap` and `Transect` containing `.npy` files of leaf coordinate data from the following link should be placed in the folder `data`: https://figshare.com/articles/dataset/Modified_leaf_shape_contour_data/25435936
+
 ## Preparing radial ECTs and aligned leaf shape masks  
 `0_radial_ect_and_masks.py`  
 Raw leaf outline data, provided as 2D NumPy arrays in .npy files, was processed to generate input data for a convolutional neural network (CNN) and associated visualizations. The 0_radial_ect_and_masks.py script, located in the scripts/ directory, systematically located all .npy files by recursively scanning the data/ directory. For each leaf shape, a series of normalization steps were applied using the ect library: coordinates were centered at the origin, subjected to an internal transformation for consistent orientation, and scaled such that the maximum radial extent was 1. The radial Euler Characteristic Transform (ECT) was then computed for each normalized shape using 360 angular directions and 360 radial thresholds ranging from 0 to 1. The resulting ECT matrix was saved as a 256
