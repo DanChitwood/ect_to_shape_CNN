@@ -1,7 +1,7 @@
 # ECT-to-shape CNN
 A CNN for segmenting leaf shapes from their corresponding radial ECTs
 
-[<img src="leaf_segmentation_figure.png">](https://github.com/DanChitwood/ect_to_shape_CNN/blob/main/ect_to_shape_CNN/outputs/figures/leaf_segmentation_figure.png)
+![alt](https://github.com/DanChitwood/ect_to_shape_CNN/blob/main/ect_to_shape_CNN/outputs/figures/leaf_segmentation_figure.png)
 
 ## Data inputs  
 The folders `Leafsnap` and `Transect` containing `.npy` files of leaf coordinate data from the following link should be placed in the folder `data`: https://figshare.com/articles/dataset/Modified_leaf_shape_contour_data/25435936
